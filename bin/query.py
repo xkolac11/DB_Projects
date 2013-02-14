@@ -44,4 +44,4 @@ ORDER BY
 rows = cursor.fetchall()
 
 for row in rows:
-	db.projects.insert({ 'proj_url':row[4], 'proj_id':row[1], 'status':row[2],  })
+	db.projects.insert({ 'proj_url':row[4], 'proj_id':row[1], 'status':row[2] })
